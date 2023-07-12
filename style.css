@@ -411,8 +411,7 @@ footer a:hover{
         position: absolute;
         top: 0;
         right: 0;
-        height: 100dvh;
-        min-height: 600px;
+        min-height: 100dvh;
         flex-direction: column;
         width: 50%;
 
@@ -425,7 +424,7 @@ footer a:hover{
         display: none;
     }
     .menu-active{
-        transform: translateX(0) !important ;
+        transform: translateX(0) !important scaleX(1);
         display: flex !important;
     }
     .menu-active a{
