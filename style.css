@@ -425,7 +425,7 @@ footer a:hover{
         display: none;
     }
     ul.menu-active{
-        transform: translateX(-100%) scaleX(1) !important;
+        transform: translateX(0%) scaleX(1) !important;
         display: flex !important;
     }
     .menu-active a{
