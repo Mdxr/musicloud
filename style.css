@@ -415,7 +415,6 @@ footer a:hover{
         min-height: 600px;
         flex-direction: column;
         width: 50%;
-        background: red;
         
     }
     .burger-icon{
@@ -425,8 +424,8 @@ footer a:hover{
     nav .cta{
         display: none;
     }
-    .menu-active{
-        transform: translateX(0%) scaleX(1) important;
+    ul.menu-active{
+        transform: translateX(0%) !important;
         display: flex !important;
     }
     .menu-active a{
