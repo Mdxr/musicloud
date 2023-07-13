@@ -411,10 +411,10 @@ footer a:hover{
         position: absolute;
         top: 0;
         right: 0;
-        min-height: 100dvh;
+        min-height: 800px;
         flex-direction: column;
         width: 50%;
-
+        
     }
     .burger-icon{
         display: flex;
