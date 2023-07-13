@@ -404,14 +404,14 @@ footer a:hover{
         position: relative;
     }
     nav .nav-links{
-        transform: translateX(100%) scaleX(0);
+        transform: translateX(100%) scaleX(0) !important;
         transition: .2s ease-in-out;
         background-color: #00061b;
         border: 1px solid rgba(255,255,255,10%);
         position: absolute;
         top: 0;
         right: 0;
-        min-height: 800px;
+        min-height: 600px;
         flex-direction: column;
         width: 50%;
         
@@ -424,7 +424,7 @@ footer a:hover{
         display: none;
     }
     .menu-active{
-        transform: translateX(0) !important scaleX(1);
+        transform: translateX(0) scaleX(1) !important;
         display: flex !important;
     }
     .menu-active a{
